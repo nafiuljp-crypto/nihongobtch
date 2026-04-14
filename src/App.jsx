@@ -6,6 +6,7 @@ import Flashcards from './pages/Flashcards';
 import Quiz from './pages/Quiz';
 import Kanji from './pages/Kanji';
 import Progress from './pages/Progress';
+import Match from './pages/Match';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path="/flashcards" element={<Flashcards />} />
             <Route path="/quiz" element={<Quiz />} />
             <Route path="/kanji" element={<Kanji />} />
+            <Route path="/match" element={<Match />} />
             <Route path="/progress" element={<Progress />} />
           </Routes>
         </main>
