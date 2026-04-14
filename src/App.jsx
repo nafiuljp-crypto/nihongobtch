@@ -9,6 +9,8 @@ import Progress from './pages/Progress';
 import Match from './pages/Match';
 import Type from './pages/Type';
 import Listen from './pages/Listen';
+import Speed from './pages/Speed';
+import Dict from './pages/Dict';
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
             <Route path="/match" element={<Match />} />
             <Route path="/type" element={<Type />} />
             <Route path="/listen" element={<Listen />} />
+            <Route path="/speed" element={<Speed />} />
+            <Route path="/dict" element={<Dict />} />
             <Route path="/progress" element={<Progress />} />
           </Routes>
         </main>

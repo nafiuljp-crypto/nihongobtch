@@ -31,6 +31,8 @@ const Navbar = () => {
           <Link to="/match" className={`nav-link ${isActive('/match') ? 'active' : ''}`}>🎮</Link>
           <Link to="/type" className={`nav-link ${isActive('/type') ? 'active' : ''}`}>⌨️</Link>
           <Link to="/listen" className={`nav-link ${isActive('/listen') ? 'active' : ''}`}>🎧</Link>
+          <Link to="/speed" className={`nav-link ${isActive('/speed') ? 'active' : ''}`}>⚡</Link>
+          <Link to="/dict" className={`nav-link ${isActive('/dict') ? 'active' : ''}`}>📖</Link>
           <Link to="/progress" className={`nav-link ${isActive('/progress') ? 'active' : ''}`}>Progress</Link>
         </div>
       </div>
