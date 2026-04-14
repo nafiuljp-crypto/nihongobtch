@@ -30,6 +30,7 @@ const Navbar = () => {
           <Link to="/kanji" className={`nav-link ${isActive('/kanji') ? 'active' : ''}`}>Kanji</Link>
           <Link to="/match" className={`nav-link ${isActive('/match') ? 'active' : ''}`}>🎮</Link>
           <Link to="/type" className={`nav-link ${isActive('/type') ? 'active' : ''}`}>⌨️</Link>
+          <Link to="/listen" className={`nav-link ${isActive('/listen') ? 'active' : ''}`}>🎧</Link>
           <Link to="/progress" className={`nav-link ${isActive('/progress') ? 'active' : ''}`}>Progress</Link>
         </div>
       </div>

@@ -8,6 +8,7 @@ import Kanji from './pages/Kanji';
 import Progress from './pages/Progress';
 import Match from './pages/Match';
 import Type from './pages/Type';
+import Listen from './pages/Listen';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route path="/kanji" element={<Kanji />} />
             <Route path="/match" element={<Match />} />
             <Route path="/type" element={<Type />} />
+            <Route path="/listen" element={<Listen />} />
             <Route path="/progress" element={<Progress />} />
           </Routes>
         </main>
