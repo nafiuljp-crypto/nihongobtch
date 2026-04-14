@@ -11,6 +11,7 @@ import Type from './pages/Type';
 import Listen from './pages/Listen';
 import Speed from './pages/Speed';
 import Dict from './pages/Dict';
+import Favorites from './pages/Favorites';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
             <Route path="/listen" element={<Listen />} />
             <Route path="/speed" element={<Speed />} />
             <Route path="/dict" element={<Dict />} />
+            <Route path="/favorites" element={<Favorites />} />
             <Route path="/progress" element={<Progress />} />
           </Routes>
         </main>

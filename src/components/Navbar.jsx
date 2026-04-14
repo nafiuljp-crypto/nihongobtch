@@ -25,7 +25,7 @@ const Navbar = () => {
         </Link>
         <div className="navbar-links">
           <Link to="/" className={`nav-link ${isActive('/') ? 'active' : ''}`}>Home</Link>
-          <Link to="/flashcards" className={`nav-link ${isActive('/flashcards') ? 'active' : ''}`}>Flashcards</Link>
+          <Link to="/flashcards" className={`nav-link ${isActive('/flashcards') ? 'active' : ''}`}>Cards</Link>
           <Link to="/quiz" className={`nav-link ${isActive('/quiz') ? 'active' : ''}`}>Quiz</Link>
           <Link to="/kanji" className={`nav-link ${isActive('/kanji') ? 'active' : ''}`}>Kanji</Link>
           <Link to="/match" className={`nav-link ${isActive('/match') ? 'active' : ''}`}>🎮</Link>
@@ -33,7 +33,8 @@ const Navbar = () => {
           <Link to="/listen" className={`nav-link ${isActive('/listen') ? 'active' : ''}`}>🎧</Link>
           <Link to="/speed" className={`nav-link ${isActive('/speed') ? 'active' : ''}`}>⚡</Link>
           <Link to="/dict" className={`nav-link ${isActive('/dict') ? 'active' : ''}`}>📖</Link>
-          <Link to="/progress" className={`nav-link ${isActive('/progress') ? 'active' : ''}`}>Progress</Link>
+          <Link to="/favorites" className={`nav-link ${isActive('/favorites') ? 'active' : ''}`}>⭐</Link>
+          <Link to="/progress" className={`nav-link ${isActive('/progress') ? 'active' : ''}`}>📊</Link>
         </div>
       </div>
     </nav>
